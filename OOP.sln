@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KlassiObecti", "KlassiObect
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson3.UpravlenieDostupom", "Lesson3.UpravlenieDostupom\Lesson3.UpravlenieDostupom.csproj", "{1AF81F32-134B-48A6-8AD1-7DB3CC44D68A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson4.Indexatori", "Lesson4.Indexatori\Lesson4.Indexatori.csproj", "{81593442-53DC-4F86-9CDB-FF644FD84787}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{1AF81F32-134B-48A6-8AD1-7DB3CC44D68A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AF81F32-134B-48A6-8AD1-7DB3CC44D68A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AF81F32-134B-48A6-8AD1-7DB3CC44D68A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81593442-53DC-4F86-9CDB-FF644FD84787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81593442-53DC-4F86-9CDB-FF644FD84787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81593442-53DC-4F86-9CDB-FF644FD84787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81593442-53DC-4F86-9CDB-FF644FD84787}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
