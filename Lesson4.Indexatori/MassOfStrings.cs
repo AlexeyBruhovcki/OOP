@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,6 +23,13 @@ namespace Lesson4.Indexatori
             //    stringList.Add(Console.ReadLine()!);
             //}
         }
+
+        public MassOfStrings()
+        {
+            this.stringList = new List<string>();
+            this.count = 0;
+        }
+
         public string this[int index]
         {
             get {if (index >= 0 && index < count) return stringList[index];
@@ -37,6 +45,53 @@ namespace Lesson4.Indexatori
         {
             stringList.AddRange(list);
         }
+        public void Print()
+        {
+            foreach (string item in stringList)
+            {
+                Console.Write(item+" ");
+            }
+            Console.WriteLine( );
+        }
+        public static MassOfStrings DistinctList(MassOfStrings list)
+        {
+            List<string> distinctStrings = new List<string>();
+            distinctStrings=list.stringList.Distinct().ToList();
+            MassOfStrings distinctList=new MassOfStrings(distinctStrings.Count);
+            distinctList.stringList=distinctStrings;
+            return distinctList;
+        }
+        public static MassOfStrings MergeDistinct(MassOfStrings list1, MassOfStrings list2)
+        {
+            MassOfStrings mergeList= new MassOfStrings(list1.count+list2.count);
+            for (int i = 0; i < list1.count; i++)
+            {
+                
+                mergeList.Add(list1[i]);
+            }
+            for (int i = 0; i < list1.count; i++)
+            {
+                
+                mergeList.Add(list2[i]);
+            }
+            mergeList = DistinctList(mergeList);
+            return mergeList;
+        }
+        public static MassOfStrings Merge(MassOfStrings list1, MassOfStrings list2)
+        {
+            MassOfStrings mergeList = new MassOfStrings(list1.count + list2.count);
+            for (int i = 0; i < list1.count; i++)
+            {
 
+                mergeList.Add(list1[i]);
+            }
+            for (int i = 0; i < list1.count; i++)
+            {
+
+                mergeList.Add(list2[i]);
+            }
+            
+            return mergeList;
+        }
     }
 }
