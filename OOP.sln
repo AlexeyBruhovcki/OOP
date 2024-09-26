@@ -13,7 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson3.UpravlenieDostupom"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson4.Indexatori", "Lesson4.Indexatori\Lesson4.Indexatori.csproj", "{81593442-53DC-4F86-9CDB-FF644FD84787}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson6Static", "Lesson6Static\Lesson6Static.csproj", "{1EC1F32C-5A81-40A2-98B3-44F08FD08B52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson6Static", "Lesson6Static\Lesson6Static.csproj", "{1EC1F32C-5A81-40A2-98B3-44F08FD08B52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson9Nasledovanie", "Lesson9Nasledovanie\Lesson9Nasledovanie.csproj", "{BEFAC27D-0802-404A-A8C9-018268A7A95D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson10VirtualMethod", "Lesson10VirtualMethod\Lesson10VirtualMethod.csproj", "{2C35F39C-4A78-47AF-8CCD-7FF5399D8249}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{1EC1F32C-5A81-40A2-98B3-44F08FD08B52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EC1F32C-5A81-40A2-98B3-44F08FD08B52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EC1F32C-5A81-40A2-98B3-44F08FD08B52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEFAC27D-0802-404A-A8C9-018268A7A95D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEFAC27D-0802-404A-A8C9-018268A7A95D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEFAC27D-0802-404A-A8C9-018268A7A95D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEFAC27D-0802-404A-A8C9-018268A7A95D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C35F39C-4A78-47AF-8CCD-7FF5399D8249}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C35F39C-4A78-47AF-8CCD-7FF5399D8249}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C35F39C-4A78-47AF-8CCD-7FF5399D8249}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C35F39C-4A78-47AF-8CCD-7FF5399D8249}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
